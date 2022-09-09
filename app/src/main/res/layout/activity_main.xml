@@ -7,12 +7,13 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="77dp">
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="0dp">
 
 
         <EditText
@@ -68,6 +69,7 @@
             android:layout_centerInParent="true"
             android:text="*"
             android:textSize="34sp" />
+
     </LinearLayout>
 
 
